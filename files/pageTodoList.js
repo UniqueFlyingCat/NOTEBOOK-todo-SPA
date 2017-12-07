@@ -2,11 +2,11 @@ var todoTemplate = function(todo) {
     var time = todo.time
     var task = todo.task
     var t = `
-        <div class="panel panel-info">
+        <div class="panel panel-info todo-cell">
             <div class="panel-heading">
                 <span class="element time" contenteditable="false">${time}</span>
             </div>
-            <div class="panel-body todo-cell">
+            <div class="panel-body ">
                 <h3 class="panel-title"><span class='todo-label element' contenteditable='false'>${task}</span></h3>
             </div>
         </div>

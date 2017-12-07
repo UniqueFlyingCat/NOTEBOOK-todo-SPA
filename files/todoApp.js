@@ -63,7 +63,7 @@ var bindEvents = function() {
     bindEvent(e('.todo-edit'), 'click', function(event){
         var target = event.target
         if (target.classList.contains('todo-button-edit')) {
-            var span = target.parentElement.children[0]
+            var span = target.parentElement.children[1]
             span.setAttribute('contenteditable', 'true')
             // span.contentEditable = true
             span.focus()
