@@ -77,7 +77,7 @@ hr {
     box-sizing: border-box;
 }
 
-#id-button-add{
+/*#id-button-add{
     background-color: #70787C;
     border: none;
     color: white;
@@ -89,7 +89,7 @@ hr {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 8px;
-}
+}*/
 
 .sty{
     color: #3c3b3b;
