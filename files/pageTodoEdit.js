@@ -1,11 +1,8 @@
 var editButton =function () {
     var h =`
-    <br>
     <button class="todo-button-edit todo-button"  type="button">编辑</button>
     <button class="todo-button-done todo-button" type="button"">完成</button>
     <button class="todo-button-del todo-button"  type="button"" >删除</button>
-    <br>
-    <hr>
     `
     return h
 }
