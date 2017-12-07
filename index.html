@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Unique Keep</title>
+        <link rel="stylesheet" href="files/todo.css">
+        <script src=files/cat.js></script>
+        <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    	<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    	<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <ul id="myTab" class="nav nav-tabs">
+        	<li class="active sty">
+        			 Unique NoteBook
+        	</li>
+        	<li><a class="gua-tab" data-page=todo-new href="" data-toggle="tab">添加记事</a></li>
+            <li><a class="gua-tab" data-page=todo-list href="" data-toggle="tab">查看记事</a></li>
+            <li><a class="gua-tab" data-page=todo-edit href="" data-toggle="tab">编辑记事</a></li>
+        </ul>
+        <div class="gua-page todo-new" style="padding: 30px 300px 20px;">
+        	<form class="bs-example bs-example-form" role="form">
+        		<div class="row">
+        			<div class="col-lg-6">
+        				<div class="input-group">
+        					<input id=id-input-task type="text" placeholder="添加记事..." class="form-control">
+        					<span class="input-group-btn">
+        						<button class="btn btn-default" id=id-button-add type="button">
+        							提交
+        						</button>
+        					</span>
+        				</div>
+        			</div>
+        		</div>
+        	</form>
+        </div>
+
+
+
+
+
+
+
+        <!-- <div class="">
+            <button  class="gua-tab" data-page=todo-new type="button">添加记事</button>
+            <button class="gua-tab" data-page=todo-list type="button">查看记事</button>
+            <button class="gua-tab" data-page=todo-edit type="button">编辑记事</button>
+        </div> -->
+        <!-- <div class="gua-page todo-new">
+            <input id=id-input-task type="text" placeholder="添加记事..." value="">
+            <button id=id-button-add type="button">添加</button>
+        </div> -->
+        <div class="gua-page todo-list"></div>
+        <div class="gua-page todo-edit"></div>
+
+        <script src=files/todoApi.js></script>
+        <script src=files/pageTodoList.js></script>
+        <script src=files/pageTodoEdit.js></script>
+        <script src=files/todoApp.js></script>
+    </body>
+</html>
